@@ -1,20 +1,20 @@
 rm -rf tmp
-mkdir -p tmp/electronicinvoicefields
-cp -R classes tmp/electronicinvoicefields
-cp -R config tmp/electronicinvoicefields
-cp -R docs tmp/electronicinvoicefields
-cp -R override tmp/electronicinvoicefields
-cp -R sql tmp/electronicinvoicefields
-cp -R src tmp/electronicinvoicefields
-cp -R translations tmp/electronicinvoicefields
-cp -R views tmp/electronicinvoicefields
-cp -R upgrade tmp/electronicinvoicefields
-cp -R vendor tmp/electronicinvoicefields
-cp -R index.php tmp/electronicinvoicefields
-cp -R logo.png tmp/electronicinvoicefields
-cp -R electronicinvoicefields.php tmp/electronicinvoicefields
-cp -R config.xml tmp/electronicinvoicefields
-cp -R LICENSE tmp/electronicinvoicefields
-cp -R README.md tmp/electronicinvoicefields
+mkdir -p tmp/legalblink
+cp -R classes tmp/legalblink
+cp -R config tmp/legalblink
+cp -R docs tmp/legalblink
+cp -R override tmp/legalblink
+cp -R sql tmp/legalblink
+cp -R src tmp/legalblink
+cp -R translations tmp/legalblink
+cp -R views tmp/legalblink
+cp -R upgrade tmp/legalblink
+cp -R vendor tmp/legalblink
+cp -R index.php tmp/legalblink
+cp -R logo.png tmp/legalblink
+cp -R legalblink.php tmp/legalblink
+cp -R config.xml tmp/legalblink
+cp -R LICENSE tmp/legalblink
+cp -R README.md tmp/legalblink
 cd tmp && find . -name ".DS_Store" -delete
-zip -r electronicinvoicefields.zip . -x ".*" -x "__MACOSX"
+zip -r legalblink.zip . -x ".*" -x "__MACOSX"
