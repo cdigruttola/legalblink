@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin528l3nsyb" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="074c9acb88a331a595f25aaedf0e5e30">
+        <source>LegalBlink Module</source>
+        <target>Modulo LegalBlink</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="523975cba05a85b2e522c32c8a8d6946">
+        <source>LegalBlink Module to add links in footer</source>
+        <target>Modulo LegalBlink per aggiungere i link nel footer</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bb8956c67b82c7444a80c6b2433dd8b4">
+        <source>Are you sure you want to uninstall this module?</source>
+        <target>Vuoi disinstallare questo modulo?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e316b4398212d473f7f53c7728fe1c37">
+        <source>Settings updated succesfully</source>
+        <target>Impostazioni aggiornate con successo</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="003b06dcfe67596f17e3de26e6a436c8">
+        <source>Error occurred during settings update</source>
+        <target>È avvenuto un errore durante l'aggiornamento delle impostazioni</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Impostazioni</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="95fa2be7c43c5fa8245812c3dc3f23b2">
+        <source>Enter the cookie code you find</source>
+        <target>Inserisci il codice Cookie presente</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6c92285fa6d3e827b198d120ea3ac674">
+        <source>here</source>
+        <target>qui</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1cf9d7f4747a2a0593b3d1d61d6db59b">
+        <source>Cookie code</source>
+        <target>Codice Cookie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4ab79f7a1d254c9864f3f19b51dc6df1">
+        <source>Enter the cookie policy link you find</source>
+        <target>Inserisci il link dell'informativa sui cookie presente</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a3debabee7a11de0af301d5b65c86339">
+        <source>Cookie policy</source>
+        <target>Informativa Cookie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e1035f157d59b29ed65752b6147e1f0d">
+        <source>Enter the privacy policy link you find</source>
+        <target>Inserisci il link dell'informativa privacy presente</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="56c34c6410dd45c5cec44149ad0ce037">
+        <source>Privacy policy</source>
+        <target>Informativa privacy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9cd11193c75897c45ce97c24e8a0be64">
+        <source>Enter the terms of service link you find</source>
+        <target>Inserisci il link delle condizioni di vendita presente</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3b6c2b4caaf4f14f8d7feeddc4ac3f4d">
+        <source>Terms of Service</source>
+        <target>Condizioni di Vendita</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Salva</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="abd819bae9591d0b1b59418693c822e3">
+        <source>Enter the cookie policy cms page</source>
+        <target>Inserisci la pagina CMS dell'informativa cookie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a6c49d2b6c63f6c82523998247756ce3">
+        <source>Enter the privacy policy cms page</source>
+        <target>Inserisci la pagina CMS dell'informativa privacy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="14702bafebdaa42b6710b746554ba7cc">
+        <source>Terms of service cms page</source>
+        <target>Pagina CMS delle condizioni di vendita</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

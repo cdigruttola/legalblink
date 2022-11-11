@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin528l3nsyb" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="074c9acb88a331a595f25aaedf0e5e30">
+        <source>LegalBlink Module</source>
+        <target>Modulo LegalBlink</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b559881f737b65b86a757524fb119a9c">
+        <source>LegalBlink Module to add links provided</source>
+        <target>Modulo LegalBlink per aggiungere i link forniti</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6c92285fa6d3e827b198d120ea3ac674">
+        <source>here</source>
+        <target>qui</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="eb5e6c7fdc3ad5f16c06907680dae7be">
+        <source>This module helps you to add LegalBlink links in footer.</source>
+        <target>Questo modulo ti permette di aggiungere i link LegalBlink nel footer.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5b6cf869265c13af8566f192b4ab3d2a">
+        <source>Documentation</source>
+        <target>Documentazione</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dfc94e8224bbd24aa039a3c79fbb9d4e">
+        <source>You can get a PDF documentation to configure this module</source>
+        <target>Puoi scaricare la documentazione per configurare questo modulo</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="78463a384a5aa4fad5fa73e2f506ecfc">
+        <source>English</source>
+        <target>Inglese</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4be8e06d27bca7e1828f2fa9a49ca985">
+        <source>Italian</source>
+        <target>Italiano</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
+        <source>Information</source>
+        <target>Informazioni</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ddab08c846455cd799afa4f0d2b9fa32">
+        <source><![CDATA[You must enable IFRAME to set policies into CMS pages. Please enable in Configure > Shop Parameters > General page]]></source>
+        <target><![CDATA[Occorre abilitare IFRAME per impostare impostare le informative nelle pagine CMS. Abilitalo da Configura > Parametri Negozio > Generale]]></target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
