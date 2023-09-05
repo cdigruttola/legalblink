@@ -53,7 +53,7 @@ class Legalblink extends Module implements WidgetInterface
         $this->author = 'cdigruttola';
         $this->need_instance = 0;
 
-        /**
+        /*
          * Set $this->bootstrap to true if your module is compliant with bootstrap (PrestaShop 1.6)
          */
         $this->bootstrap = true;
@@ -90,7 +90,7 @@ class Legalblink extends Module implements WidgetInterface
 
     public function uninstall()
     {
-        //Configuration::deleteByName(self::LEGALBLINK_COOKIE_CODE);
+        // Configuration::deleteByName(self::LEGALBLINK_COOKIE_CODE);
         return parent::uninstall();
     }
 
@@ -100,7 +100,7 @@ class Legalblink extends Module implements WidgetInterface
     public function getContent()
     {
         $output = '';
-        if ((Tools::isSubmit('submitLegalblinkModule'))) {
+        if (Tools::isSubmit('submitLegalblinkModule')) {
             if ($this->postProcess()) {
                 $output .= $this->displayConfirmation($this->trans('Settings updated succesfully', [], 'Modules.Legalblink.Main'));
                 $this->_clearCache('*');
@@ -114,7 +114,6 @@ class Legalblink extends Module implements WidgetInterface
         $output .= $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
 
         return $output . $this->renderForm();
-
     }
 
     /**
@@ -205,7 +204,7 @@ class Legalblink extends Module implements WidgetInterface
      */
     protected function getConfigFormValues()
     {
-        $id_shop = (int)$this->context->shop->id;
+        $id_shop = (int) $this->context->shop->id;
 
         $result = [];
         foreach (static::LINKS as $link => $val) {
@@ -223,6 +222,7 @@ class Legalblink extends Module implements WidgetInterface
         }
         $result[self::LEGALBLINK_COOKIE_CODE] = Configuration::get(self::LEGALBLINK_COOKIE_CODE, null, null, $id_shop);
         $result[self::LEGALBLINK_OTHER_PAGES_ARRAY] = json_decode(Configuration::get(self::LEGALBLINK_OTHER_PAGES, null, null, $id_shop), true);
+
         return $result;
     }
 
@@ -231,10 +231,10 @@ class Legalblink extends Module implements WidgetInterface
      */
     protected function postProcess()
     {
-        $id_shop = (int)$this->context->shop->id;
+        $id_shop = (int) $this->context->shop->id;
 
         // get current HTML purifier setting
-        $use_html_purifier = (bool)Configuration::get('PS_USE_HTMLPURIFIER');
+        $use_html_purifier = (bool) Configuration::get('PS_USE_HTMLPURIFIER');
 
         // is it turned on? then turn it off
         if ($use_html_purifier) {
@@ -296,9 +296,11 @@ class Legalblink extends Module implements WidgetInterface
     public function hookDisplayBeforeBodyClosingTag()
     {
         if ($this->active) {
-            $id_shop = (int)$this->context->shop->id;
+            $id_shop = (int) $this->context->shop->id;
+
             return Configuration::get(self::LEGALBLINK_COOKIE_CODE, null, null, $id_shop);
         }
+
         return '';
     }
 
@@ -318,9 +320,8 @@ class Legalblink extends Module implements WidgetInterface
 
     public function getWidgetVariables($hookName = null, array $configuration = [])
     {
-        $id_shop = (int)$this->context->shop->id;
+        $id_shop = (int) $this->context->shop->id;
         $id_lang = $this->context->language->id;
-
 
         $elements = [];
         foreach (static::LINKS as $link => $val) {
@@ -335,7 +336,7 @@ class Legalblink extends Module implements WidgetInterface
                 $elements[$link]['link'] = $this->linkPresenter->getCMSLink($cms);
                 $elements[$link]['text'] = $cms->meta_title;
                 unset($cms);
-            } else if (!empty($conf)) {
+            } elseif (!empty($conf)) {
                 $elements[$link]['link'] = $conf;
                 $elements[$link]['text'] = $this->trans($val, [], 'Modules.Legalblink.Main');
             }
@@ -437,5 +438,4 @@ class Legalblink extends Module implements WidgetInterface
             ],
         ];
     }
-
 }
